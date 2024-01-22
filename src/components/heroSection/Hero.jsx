@@ -1,5 +1,8 @@
 import styles from "./Hero.module.css";
 import { FaArrowRight } from "react-icons/fa6";
+import { logoData } from "../../utils/companyLogos";
+import Logo from "../logoIcons/Logo";
+import { Fragment } from "react";
 
 const Hero = () => {
   return (
@@ -24,11 +27,15 @@ const Hero = () => {
         <div className={styles.link_container}>
           <section className={styles.social}>
             <h3>Find With Me</h3>
-            <div className={styles.icon_container}></div>
+            <div className={styles.icon_container}>
+              {logoData.map((logo, index) => (logo.category === "social" ? <Fragment key={index}><Logo image={logo.logo} /></Fragment> : ''))}
+            </div>
           </section>
           <section className={styles.developer}>
             <h3>Best Skills On</h3>
-            <div className={styles.icon_container}></div>
+            <div className={styles.icon_container}>
+            {logoData.map((logo, index) => (logo.category === "work" ? <Fragment key={index}><Logo image={logo.logo} /></Fragment> : ''))}
+            </div>
           </section>
         </div>
       </section>

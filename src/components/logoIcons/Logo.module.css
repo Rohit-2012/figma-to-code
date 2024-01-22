@@ -1,0 +1,15 @@
+.logo_container {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.4rem;
+    background-color: #F0EFF5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_container img {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}

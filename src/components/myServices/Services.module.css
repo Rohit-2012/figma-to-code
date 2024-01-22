@@ -1,0 +1,26 @@
+.services {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.caption {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.heading {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.gradient{
+    background: -webkit-linear-gradient(0deg, #5948bb, #ec65a4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.slider_container {
+    margin-top: 4rem;
+}

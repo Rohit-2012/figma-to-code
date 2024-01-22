@@ -1,0 +1,54 @@
+.card_container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  padding: 1.5rem;
+  width: 23rem;
+  height: 18rem;
+  border-radius: 0.9375rem;
+  box-shadow: 0px 10px 40px rgba(44, 44, 44, 0.11);
+  cursor: grab;
+  margin: 2rem 1rem;
+}
+
+.tag {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.title {
+  color: #333;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.description {
+  color: #757779;
+  text-align: justify;
+  font-size: 0.8125rem;
+  font-weight: bold;
+}
+
+.pricing_btn {
+  color: #333;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.card_container:hover,
+.card_container:hover .tag,
+.card_container:hover .title,
+.card_container:hover .pricing_btn {
+  background-color: #7d6ae9;
+  color: #fff;
+}
+
+.card_container:hover .description {
+  color: #d5dfe4;
+}

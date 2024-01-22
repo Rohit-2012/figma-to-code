@@ -1,0 +1,41 @@
+footer {
+  background-color: #7d6ae9;
+  color: #fff;
+  padding: 5rem 7rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.text_content{
+    display: flex;
+    gap: 4rem;
+}
+
+.text_content section {
+    width: 14rem;
+}
+
+.footer_headings {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer_headings ~ p, .footer_headings ~ ul{
+    font-size: 0.75rem;
+}
+
+.footer_headings ~ ul li {
+    list-style: none;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    justify-content: start;
+}
+
+.link_icons {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 1.5rem;
+}

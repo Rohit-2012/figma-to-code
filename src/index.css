@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap');
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+ height: 100%;
+ width: 100%;
+}
+
+.slick-dots li button::before{
+   content: "" !important;
+   border-radius: 50%;
+   background-color: #7D6AE9;
+   opacity: 1 !important;
+}
+
+.slick-dots li.slick-active button::before {
+   background-color: #fff !important;
+   border: 1px solid #7D6AE9;
+}
+
+.vertical-timeline.vertical-timeline--animate.vertical-timeline--two-columns::before {
+   background-color: #333;
+   position: absolute;
+   left: 180px;
+}
+
+.vertical-timeline-element-icon {
+   box-shadow: none;
+}
+
+.vertical-timeline-element {
+   width: 100%;
+}
+
+.vertical-timeline--two-columns .vertical-timeline-element-icon {
+   width: 40px;
+    height: 40px;
+    left: 34.5%;
+    top: 15px;
+    margin-left: -31px;
+}
+
+.vertical-timeline-element-content {
+   border: 1px solid #D0D3D6;
+   border-radius: 1rem;
+   box-shadow: 0px 5px 20px rgba(175, 176, 177, 0.384);
+   float: right;
+   left: 16px;
+   width: 22rem !important;
+}
+
+.vertical-timeline-element-content-arrow {
+   content: '';
+   position: absolute;
+   top: 16px;
+   right: 100%;
+   height: 0;
+   width: 0;
+   border: 0px solid transparent;
+   border-right: 0px solid #fff;
+}
+
+.vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
+   position: absolute;
+   left: -210px;
+   top: 6px;
+   font-size: 16px;
+   font-size: 1rem;
+   width: 9rem !important;
+   text-align: center;
+   border-radius: 0.375rem;
+}
+
+.primaryDate {
+   color: #fff;
+   background: #7D6AE9;
+   padding: 0.8rem 2rem;
+   opacity: 1 !important;
+}
+
+.secondaryDate {
+   border: 1px solid #A1A7AD;
+   text-align: center !important;
+   left: -210px !important;
+   color: #7D6AE9;
+   opacity: 1 !important;
+}

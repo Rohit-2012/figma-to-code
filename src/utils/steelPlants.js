@@ -1,0 +1,1 @@
+export const steelPlants = ['Bhilai Steel Plant', 'Bokaro Steel Plant', 'Durgapur Steel Plant', 'Rourkela Steel Plant', 'IISCO Steel Plant', 'Special Steel Plants', ' Chandarpur Ferro-Alloy Plant', 'Subsidiary', 'Other Units']
